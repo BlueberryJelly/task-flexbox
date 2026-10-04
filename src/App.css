@@ -6,21 +6,21 @@ body,
 }
 
 .flex-container {
-    width: 700px;
-    height: 300px;
     display: flex;
     justify-content: space-between;
+    width: 700px;
+    height: 300px;
 }
 
 .flex-container > div {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    color: #DAA520;
+    background-color: #daa520;
 }
 
 .flex-container > div:nth-child(1),
-.flex-container > div:nth-child(5){
+.flex-container > div:nth-child(5) {
     align-self: flex-start;
 }
 
@@ -30,5 +30,5 @@ body,
 }
 
 .flex-container > div:nth-child(3) {
-    align-self: flex-end
+    align-self: flex-end;
 }
